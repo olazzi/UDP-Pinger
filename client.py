@@ -26,7 +26,7 @@ def call_server(index):
     # Get the current time
     sendTime = time.time()
     # Create the message to send to the server
-    message = f'Ping {index} sent time: {sendTime}'
+    message = f'Ping {index} {sendTime}'
 
     try:
         # Send the message to the server
